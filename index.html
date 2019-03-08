@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Application_web</title>
+        <link rel="icon" type="image/x-icon" href="images/logo.ico" />
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <main class="container">
+        
+            <div class="left_side">
+                <div class="title">Elements</div>
+                <div class="actions_part">
+                    <div class="tags">Most Used</div>
+                    <div class="bord">Titre</div>
+                    <div class="bord">Paragraphe</div>
+                    <div class="bord">Liste ordonnéé</div>
+                    <div class="bord">List non-ordonnée</div>
+                    <div class="bord">Image</div>
+                    <div class="bord">Video</div>
+                    <div class="bord">Lien</div>
+                    <div class="bord">Audio</div>
+                    <div class="bord">Formulaire</div>
+                </div>
+            </div>
+            <div class="center_side">
+                    <div class="title">Code</div>
+                    <div class="code_part">
+                        <p id="changeContent" onclick="changeP()">
+                                if click on this paragraph you can change it to what you want<br>
+                                if click on this paragraph you can change it to what you want<br>
+                                if click on this paragraph you can change it to what you want<br>
+                        </p>
+                        <div class="titre"><h1>Titre</h1></div>
+                        <div class="paragraph"><p>ceci est un paragraphe</p></div>
+                        <div class="list_ordonnee">
+                            <ol>
+                                <li>Item1</li>
+                                <li>Item2</li>
+                                <li>Item3</li>
+                            </ol>
+                        </div>
+                        <div class="list_non_ordonnee">
+                            <ul>
+                                    <li>Item1</li>
+                                    <li>Item2</li>
+                                    <li>Item3</li>
+                            </ul>
+                        </div>
+                        <div class="image"><img src="images/me.jpg" alt="mypictire" width="320" height="240"></div><br>
+                        <div class="video">
+                                <video width="320" height="240" controls>
+                                        <source src="video/keyboard- Home.mp4" type="video/mp4">
+                                      </video>
+                        </div><br>
+                        <div class="link"><a href="facebook.com/mouheblerrasoull">mYfB</a></div><br>
+                        <div class="audio">
+                                <audio controls>
+                                        <source src="audio/audio.m4a" type="audio/m4a">
+                                      </audio>
+                        </div>
+                        <div class="form"></div>
+                    </div>
+            </div>
+            <div class="right_side">
+                    <div class="title">Preview</div>
+                    <div class="preview_part"></div>
+            </div>
+            
+        </main>
+    </body>
+    <script src="js/main.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</html>

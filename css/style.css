@@ -1,0 +1,49 @@
+body{
+    display: block;
+}
+main{
+    display:table;
+    width: 100%;
+}
+
+main .left_side, .center_side, .right_side{
+    display:table-cell;
+    width:33.33%;
+    
+}
+.title{
+    background-color: gray;
+    height: 30px;
+    color: white;
+    font-size: large;
+    text-align: center;
+    padding-top: 10px;
+}
+.actions_part , .code_part , .preview_part{
+    height: 1000px;
+    border:2px solid rgb(14, 13, 13);   
+}
+.tags{
+    border-style: none;
+    background-color: green;
+    color: rgb(212, 209, 206);
+    font-size: large;
+    padding : 10px;
+}
+.tags:hover{
+    border-style: solid;
+    background-color: #efcf59;
+    color :red;
+}
+.bord{
+    border-style: none;
+    background-color: white;
+    font-size: large;
+    margin-top:20px;
+}
+.bord:hover{
+    border-style:solid;
+        font-size: x-large;
+    border-color:#ddeae5;
+    background: whitesmoke;
+}
