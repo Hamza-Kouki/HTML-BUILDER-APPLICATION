@@ -50,4 +50,3 @@ main .left_side, .center_side, .right_side{
 .Titre , .Paragraphe , .Liste-ordonnee , .List-non-ordonnee , .Image  , .Video , .Lien , .Audio , .Formulaire {
     display: none;
 }
-/*, .Paragraphe , .Liste-ordonnee , .List-non-ordonnee , .Image  , .Video , .Lien , .Audio , .Formulaire*/
